@@ -1,0 +1,15 @@
+-Xms128m    初始内存 内存足够大可以修改为500m  可以提高软件启动速度
+-Xmx750m    最大内存数，增加数值可以降低垃圾回收的频率， 可以修改为1500m
+-XX:ReservedCodeCacheSize=240m 保留代码缓存的大小，可以减少代码回收频率
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-ea
+-XX:CICompilerCount=2
+-Dsun.io.useCanonPrefixCache=false
+-Djava.net.preferIPv4Stack=true
+-Djdk.http.auth.tunneling.disabledSchemes=""
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-Djdk.attach.allowAttachSelf=true
+-Dkotlinx.coroutines.debug=off
+-Djdk.module.illegalAccess.silent=true

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+     scope 配置 bean 的作用域
+     prototype 原型 容器初始化时不创建 bean 的实例，而是在每次请求时都创建一个新的 bean 实例
+     singleton 默认值(单例模式)  容器初始化时创建 bean 实例，容器声明周期内只创建一个 bean
+     -->
+     <bean id="car" class="Spring01.autowire.Car" scope="prototype">
+         <property name="brand" value="MaiBahe"></property>
+         <property name="price" value="4500000"></property>
+     </bean>
+</beans>

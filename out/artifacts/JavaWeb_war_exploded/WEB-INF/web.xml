@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!-- 给Tomcat配置Servlet程序-->
+    <servlet>
+        <!-- 给Servlet程序起一个别名 ， 一般是类名-->
+        <servlet-name>HelloServlet</servlet-name>
+        <!-- Servlet程序的全类名，从包开始 -->
+        <servlet-class>servlet.HelloServlet</servlet-class>
+    </servlet>
+    <!--配置访问地址 -->
+    <servlet-mapping>
+        <!-- 当前配置的地址给哪个servlet程序使用 -->
+        <servlet-name>HelloServlet</servlet-name>
+        <!-- 配置访问地址
+            / 表示  在服务器解析的时候表示地址为http://ip:port/project url
+            /hello
+            可以随意写，习惯上要与要执行的类有一定的关系、
+            一定要以斜杠开头
+        -->
+        <url-pattern>/hello</url-pattern>
+        <!--
+         url-patter ===> servlet-mapping中的servlet-name ===> servlet中的servlet-name  ===> servlet中的servlet-class ===> 执行类中的service方法
+         -->
+    </servlet-mapping>
+</web-app>

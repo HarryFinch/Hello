@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise/Exercise.iml" filepath="$PROJECT_DIR$/Exercise/Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaNote.iml" filepath="$PROJECT_DIR$/JavaNote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPrimary/JavaPrimary.iml" filepath="$PROJECT_DIR$/JavaPrimary/JavaPrimary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSenior/JavaSenior.iml" filepath="$PROJECT_DIR$/JavaSenior/JavaSenior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring01/Spring01.iml" filepath="$PROJECT_DIR$/Spring01/Spring01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring02/Spring02.iml" filepath="$PROJECT_DIR$/Spring02/Spring02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring03/Spring03.iml" filepath="$PROJECT_DIR$/Spring03/Spring03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring04/Spring04.iml" filepath="$PROJECT_DIR$/Spring04/Spring04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringData/SpringData.iml" filepath="$PROJECT_DIR$/SpringData/SpringData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC01/SpringMVC01.iml" filepath="$PROJECT_DIR$/SpringMVC01/SpringMVC01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC03/SpringMVC03.iml" filepath="$PROJECT_DIR$/SpringMVC03/SpringMVC03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SprintMVC02Exer/SprintMVC02Exer.iml" filepath="$PROJECT_DIR$/SprintMVC02Exer/SprintMVC02Exer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot01/springboot01.iml" filepath="$PROJECT_DIR$/springboot01/springboot01.iml" />
+    </modules>
+  </component>
+</project>

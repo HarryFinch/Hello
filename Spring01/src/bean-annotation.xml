@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+    指定IOC容器扫描的包
+    容器会扫描到annotation包及其子包，凡是有注解的
+    可以通过resource-pattern指定扫描的资源
+    -->
+
+    <!--
+    <context:component-scan base-package="Spring01.annotation"
+                          resource-pattern="repository/*.class"
+    </context:component-scan>
+    -->
+
+    <!--
+    context:exclude-filter 子节点指定排除哪些指定表达式的组件
+    context:include-filter 子节点指定包含哪些指定表达式的组件，该子节点需要use-default-filters 值为false 配合使用
+     -->
+
+    <context:component-scan base-package="Spring01.annotation">
+        <!-- context:exclude-filter 子节点指定排除哪些指定表达式的组件 -->
+        <!-- <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository"/>-->
+        <!-- <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>-->
+        <!-- <context:exclude-filter type="assignable" expression="Spring01.annotation.repository.UserRepository"/>-->
+        <!-- <context:include-filter type="assignable" expression="Spring01.annotation.repository.UserRepository"/>-->
+        <context:include-filter type="assignable" expression="Spring01.annotation.controller.UserController"/>
+    </context:component-scan>
+
+
+</beans>

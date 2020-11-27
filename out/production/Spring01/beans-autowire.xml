@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="Spring01.autowire.Address"
+        p:city="Liaoning" p:street="Anshan">
+    </bean>
+
+    <bean id="pcar" class="Spring01.autowire.Car"
+        p:brand="Audi" p:price="30000">
+    </bean>
+
+    <!--
+     可以使用autowire 属性指定自动装配的方式
+     byName 的名字和当前bean 的 setter 风格的属性进行自动装配
+        若有匹配的，则进行自动装配，否则不装配
+     byType 根据 bean 的类型和当前 bean 的属性类型进行自动装配
+        若IOC容器中有1个以上类型匹配的 bean，则报异常，因为无法进行准确匹配
+
+     自动装配的缺点
+        1、bean中使用了autowire自动装配，则所有的引用属性都得使用自动装配
+        2、自动装配的方式只能是byName和byType，不够灵活，
+            相对来说，结构清晰的配置文档更好；在框架整合的过程中会使用到自动装配
+     -->
+    <bean id="person" class="Spring01.autowire.Person"
+        p:name="Harold"
+        autowire="byType">
+    </bean>
+
+</beans>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SprintMVC02Exer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SprintMVC02Exer_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SprintMVC02Exer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SprintMVC02Exer" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+    </root>
+  </artifact>
+</component>

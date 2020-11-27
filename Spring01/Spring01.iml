@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="ApplicationContext" removed="false">
+          <file>file://$MODULE_DIR$/../Spring/src/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/beans-autowire.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/beans-relation.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/bean-scope.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/bean-spel.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/bean-cycle.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/bean-factory.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/bean-beanFactory.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/bean-annotation.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/bean-generic.xml</file>
+          <file>file://$MODULE_DIR$/../Spring/src/Spring01-XML/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/bean-generic.xml</file>
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/bean-annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/bean-beanFactory.xml</file>
+          <file>file://$MODULE_DIR$/src/bean-cycle.xml</file>
+          <file>file://$MODULE_DIR$/src/bean-factory.xml</file>
+          <file>file://$MODULE_DIR$/src/bean-scope.xml</file>
+          <file>file://$MODULE_DIR$/src/bean-spel.xml</file>
+          <file>file://$MODULE_DIR$/src/beans-autowire.xml</file>
+          <file>file://$MODULE_DIR$/src/beans-relation.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../Spring/src/beans-property.xml</file>
+          <file>file://$MODULE_DIR$/src/beans-property.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="javadoc-api" level="project" />
+  </component>
+</module>
